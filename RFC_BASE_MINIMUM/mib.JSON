@@ -1,0 +1,412 @@
+{
+    "SNMPv2-SMI": {
+        "org": {
+            "ObjectName": "org",
+            "ModuleName": "SNMPv2-SMI",
+            "OBJECT IDENTIFIER": "iso 3",
+            "OID": "1.3.",
+            "NameSpace": "iso.org."
+        },
+        "dod": {
+            "ObjectName": "dod",
+            "ModuleName": "SNMPv2-SMI",
+            "OBJECT IDENTIFIER": "org 6",
+            "OID": "1.3.6",
+            "NameSpace": "iso.org.org."
+        },
+        "internet": {
+            "ObjectName": "internet",
+            "ModuleName": "SNMPv2-SMI",
+            "OBJECT IDENTIFIER": "dod 1",
+            "OID": "1.3.6.1",
+            "NameSpace": "iso.org.org.dod."
+        },
+        "directory": {
+            "ObjectName": "directory",
+            "ModuleName": "SNMPv2-SMI",
+            "OBJECT IDENTIFIER": "internet 1",
+            "OID": "1.3.6.1.1",
+            "NameSpace": "iso.org.org.dod.internet."
+        },
+        "mgmt": {
+            "ObjectName": "mgmt",
+            "ModuleName": "SNMPv2-SMI",
+            "OBJECT IDENTIFIER": "internet 2",
+            "OID": "1.3.6.1.2",
+            "NameSpace": "iso.org.org.dod.internet."
+        },
+        "mib-2": {
+            "ObjectName": "mib-2",
+            "ModuleName": "SNMPv2-SMI",
+            "OBJECT IDENTIFIER": "mgmt 1",
+            "OID": "1.3.6.1.2.1",
+            "NameSpace": "iso.org.org.dod.internet.mgmt."
+        },
+        "transmission": {
+            "ObjectName": "transmission",
+            "ModuleName": "SNMPv2-SMI",
+            "OBJECT IDENTIFIER": "mib-2 10",
+            "OID": "1.3.6.1.2.1.10",
+            "NameSpace": "iso.org.org.dod.internet.mgmt.mib-2."
+        },
+        "experimental": {
+            "ObjectName": "experimental",
+            "ModuleName": "SNMPv2-SMI",
+            "OBJECT IDENTIFIER": "internet 3",
+            "OID": "1.3.6.1.3",
+            "NameSpace": "iso.org.org.dod.internet."
+        },
+        "private": {
+            "ObjectName": "private",
+            "ModuleName": "SNMPv2-SMI",
+            "OBJECT IDENTIFIER": "internet 4",
+            "OID": "1.3.6.1.4",
+            "NameSpace": "iso.org.org.dod.internet."
+        },
+        "enterprises": {
+            "ObjectName": "enterprises",
+            "ModuleName": "SNMPv2-SMI",
+            "OBJECT IDENTIFIER": "private 1",
+            "OID": "1.3.6.1.4.1",
+            "NameSpace": "iso.org.org.dod.internet.private."
+        },
+        "security": {
+            "ObjectName": "security",
+            "ModuleName": "SNMPv2-SMI",
+            "OBJECT IDENTIFIER": "internet 5",
+            "OID": "1.3.6.1.5",
+            "NameSpace": "iso.org.org.dod.internet."
+        },
+        "snmpV2": {
+            "ObjectName": "snmpV2",
+            "ModuleName": "SNMPv2-SMI",
+            "OBJECT IDENTIFIER": "internet 6",
+            "OID": "1.3.6.1.6",
+            "NameSpace": "iso.org.org.dod.internet."
+        },
+        "snmpDomains": {
+            "ObjectName": "snmpDomains",
+            "ModuleName": "SNMPv2-SMI",
+            "OBJECT IDENTIFIER": "snmpV2 1",
+            "OID": "1.3.6.1.6.1",
+            "NameSpace": "iso.org.org.dod.internet.snmpV2."
+        },
+        "snmpProxys": {
+            "ObjectName": "snmpProxys",
+            "ModuleName": "SNMPv2-SMI",
+            "OBJECT IDENTIFIER": "snmpV2 2",
+            "OID": "1.3.6.1.6.2",
+            "NameSpace": "iso.org.org.dod.internet.snmpV2."
+        },
+        "snmpModules": {
+            "ObjectName": "snmpModules",
+            "ModuleName": "SNMPv2-SMI",
+            "OBJECT IDENTIFIER": "snmpV2 3",
+            "OID": "1.3.6.1.6.3",
+            "NameSpace": "iso.org.org.dod.internet.snmpV2."
+        },
+        "MODULE-IDENTITY": {
+            "TYPE NOTATION": {
+                "LAST-UPDATED": "value(Update UTCTime)",
+                "ORGANIZATION": "Text",
+                "CONTACT-INFO": "Text",
+                "DESCRIPTION": "Text",
+                "RevisionPart": null
+            },
+            "VALUE NOTATION": {
+                "value(VALUE OBJECT IDENTIFIER)": null
+            },
+            "RevisionPart": {
+                "ObjectName": "RevisionPart",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "Revisions"
+            },
+            "Revisions": {
+                "ObjectName": "Revisions",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "Revision"
+            },
+            "Revision": {
+                "ObjectName": "Revision",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "\"REVISION\""
+            },
+            "Text": {
+                "ObjectName": "Text",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "\"\""
+            }
+        },
+        "OBJECT-IDENTITY": {
+            "TYPE NOTATION": {
+                "STATUS": "Status",
+                "DESCRIPTION": "Text",
+                "ReferPart": null
+            },
+            "VALUE NOTATION": {
+                "value(VALUE OBJECT IDENTIFIER)": null
+            },
+            "Status": {
+                "ObjectName": "Status",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "\"current\""
+            },
+            "ReferPart": {
+                "ObjectName": "ReferPart",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "\"REFERENCE\""
+            },
+            "Text": {
+                "ObjectName": "Text",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "\"\""
+            }
+        },
+        "ObjectName": {
+            "ObjectName": "ObjectName",
+            "ModuleName": "SNMPv2-SMI",
+            "MACRO": "OBJECT IDENTIFIER"
+        },
+        "NotificationName": {
+            "ObjectName": "NotificationName",
+            "ModuleName": "SNMPv2-SMI",
+            "MACRO": "OBJECT IDENTIFIER"
+        },
+        "ObjectSyntax": {
+            "ObjectName": "ObjectSyntax",
+            "ModuleName": "SNMPv2-SMI",
+            "MACRO": "CHOICE"
+        },
+        "SimpleSyntax": {
+            "ObjectName": "SimpleSyntax",
+            "ModuleName": "SNMPv2-SMI",
+            "MACRO": "CHOICE"
+        },
+        "Integer32": {
+            "ObjectName": "Integer32",
+            "ModuleName": "SNMPv2-SMI",
+            "MACRO": "[UNIVERSAL 2]"
+        },
+        "ApplicationSyntax": {
+            "ObjectName": "ApplicationSyntax",
+            "ModuleName": "SNMPv2-SMI",
+            "MACRO": "CHOICE"
+        },
+        "IpAddress": {
+            "ObjectName": "IpAddress",
+            "ModuleName": "SNMPv2-SMI",
+            "MACRO": "[APPLICATION 0]"
+        },
+        "Counter32": {
+            "ObjectName": "Counter32",
+            "ModuleName": "SNMPv2-SMI",
+            "MACRO": "[APPLICATION 1]"
+        },
+        "Gauge32": {
+            "ObjectName": "Gauge32",
+            "ModuleName": "SNMPv2-SMI",
+            "MACRO": "[APPLICATION 2]"
+        },
+        "Unsigned32": {
+            "ObjectName": "Unsigned32",
+            "ModuleName": "SNMPv2-SMI",
+            "MACRO": "[APPLICATION 2]"
+        },
+        "TimeTicks": {
+            "ObjectName": "TimeTicks",
+            "ModuleName": "SNMPv2-SMI",
+            "MACRO": "[APPLICATION 3]"
+        },
+        "Opaque": {
+            "ObjectName": "Opaque",
+            "ModuleName": "SNMPv2-SMI",
+            "MACRO": "[APPLICATION 4]"
+        },
+        "Counter64": {
+            "ObjectName": "Counter64",
+            "ModuleName": "SNMPv2-SMI",
+            "MACRO": "[APPLICATION 6]"
+        },
+        "OBJECT-TYPE": {
+            "TYPE NOTATION": {
+                "SYNTAX": "Syntax",
+                "UnitsPart": null,
+                "MAX-ACCESS": "Access",
+                "STATUS": "Status",
+                "DESCRIPTION": "Text",
+                "ReferPart": null,
+                "IndexPart": null,
+                "DefValPart": null
+            },
+            "VALUE NOTATION": {
+                "value(VALUE ObjectName)": null
+            },
+            "Syntax": {
+                "ObjectName": "Syntax",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "type(ObjectSyntax)"
+            },
+            "Kibbles": {
+                "ObjectName": "Kibbles",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "Kibble"
+            },
+            "Kibble": {
+                "ObjectName": "Kibble",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "identifier"
+            },
+            "UnitsPart": {
+                "ObjectName": "UnitsPart",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "\"UNITS\""
+            },
+            "Access": {
+                "ObjectName": "Access",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "\"not-accessible\""
+            },
+            "Status": {
+                "ObjectName": "Status",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "\"current\""
+            },
+            "ReferPart": {
+                "ObjectName": "ReferPart",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "\"REFERENCE\""
+            },
+            "IndexPart": {
+                "ObjectName": "IndexPart",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "\"INDEX\""
+            },
+            "IndexTypes": {
+                "ObjectName": "IndexTypes",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "IndexType"
+            },
+            "IndexType": {
+                "ObjectName": "IndexType",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "\"IMPLIED\""
+            },
+            "Index": {
+                "ObjectName": "Index",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "value(Indexobject ObjectName)"
+            },
+            "Entry": {
+                "ObjectName": "Entry",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "value(Entryobject ObjectName)"
+            },
+            "DefValPart": {
+                "ObjectName": "DefValPart",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "\"DEFVAL\""
+            },
+            "Text": {
+                "ObjectName": "Text",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "\"\""
+            }
+        },
+        "NOTIFICATION-TYPE": {
+            "TYPE NOTATION": {
+                "ObjectsPart": null,
+                "STATUS": "Status",
+                "DESCRIPTION": "Text",
+                "ReferPart": null
+            },
+            "VALUE NOTATION": {
+                "value(VALUE NotificationName)": null
+            },
+            "ObjectsPart": {
+                "ObjectName": "ObjectsPart",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "\"OBJECTS\""
+            },
+            "Objects": {
+                "ObjectName": "Objects",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "Object"
+            },
+            "Object": {
+                "ObjectName": "Object",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "value(Name ObjectName)"
+            },
+            "Status": {
+                "ObjectName": "Status",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "\"current\""
+            },
+            "ReferPart": {
+                "ObjectName": "ReferPart",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "\"REFERENCE\""
+            },
+            "Text": {
+                "ObjectName": "Text",
+                "ModuleName": "SNMPv2-SMI",
+                "MACRO": "\"\""
+            }
+        },
+        "zeroDotZero": {
+            "ObjectName": "zeroDotZero",
+            "ModuleName": "SNMPv2-SMI",
+            "MACRO": "OBJECT-IDENTITY",
+            "STATUS": "current",
+            "DESCRIPTION": "A value used for null identifiers.",
+            "OBJECT IDENTIFIER": "0 0",
+            "OID": "0.0",
+            "NameSpace": "null"
+        }
+    },
+    "reco": {
+        "IMPORTS": {
+            "SNMPv2-SMI": [
+                "enterprises",
+                "IpAddress",
+                "Integer32",
+                "Unsigned32",
+                "Counter64",
+                "OBJECT-TYPE"
+            ]
+        },
+        "tbit": {
+            "ObjectName": "tbit",
+            "ModuleName": "reco",
+            "OBJECT IDENTIFIER": "enterprises 66666",
+            "OID": "1.3.6.1.4.1.66666",
+            "NameSpace": "iso.org.org.dod.internet.private.enterprises."
+        },
+        "RecoDevice": {
+            "ObjectName": "RecoDevice",
+            "ModuleName": "reco",
+            "OBJECT IDENTIFIER": "tbit 1",
+            "OID": "1.3.6.1.4.1.66666.1",
+            "NameSpace": "iso.org.org.dod.internet.private.enterprises.tbit."
+        },
+        "RecoDevice1": {
+            "ObjectName": "RecoDevice1",
+            "ModuleName": "reco",
+            "OBJECT IDENTIFIER": "tbit 2",
+            "OID": "1.3.6.1.4.1.66666.2",
+            "NameSpace": "iso.org.org.dod.internet.private.enterprises.tbit."
+        },
+        "Name": {
+            "ObjectName": "Name",
+            "ModuleName": "reco",
+            "MACRO": "OBJECT-TYPE",
+            "SYNTAX": "OCTET STRING",
+            "MAX-ACCESS": "read-write",
+            "STATUS": "current",
+            "DESCRIPTION": "Description.",
+            "OBJECT IDENTIFIER": "RecoDevice 1",
+            "OID": "1.3.6.1.4.1.66666.1.1",
+            "NameSpace": "iso.org.org.dod.internet.private.enterprises.tbit.RecoDevice."
+        }
+    }
+}
